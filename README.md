@@ -15,7 +15,7 @@ run:
 e.g.
     python3.10 -m venv env 
 
-this will create a directory called env. to used the virtual enviornment you need to activate it
+this will create a directory called "env". to used the virtual enviornment you need to activate it
 
 
 navigate to: 
