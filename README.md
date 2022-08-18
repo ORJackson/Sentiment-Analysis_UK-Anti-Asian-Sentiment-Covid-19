@@ -15,7 +15,7 @@ run:
 e.g.
     python3.10 -m venv env 
 
-this will create a directory called "env". to used the virtual enviornment you need to activate it
+this will create a directory called "env". to use the virtual enviornment you need to activate it
 
 
 navigate to: 
@@ -29,12 +29,12 @@ to ensure virtual environment is activated run:
 
 it will display only two packages - setuptools and pip. these base packages come default with a virtualenv
 
-add env/ direcotry to .gitignore file
+add env/ directory to .gitignore file
 
 ********************
 
 To install libraries in a virtual env use pip install
-to see all installed libnraries run:
+to see all installed libraries run:
     pip list
 
 to create a text file listing all project dependencies run:
