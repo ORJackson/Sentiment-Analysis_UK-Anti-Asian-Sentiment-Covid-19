@@ -27,11 +27,11 @@ and run:
 to ensure virtual environment is activated run:
     pip list
 
-it will display only two packages - setuptools and pip. these base packages come default with a virtualenv
+when virtual env is first created pip list will display only two packages - setuptools and pip. As packages are installed the result of pip list will grow
 
 add env/ directory to .gitignore file
 
-********************
+*********************
 
 To install libraries in a virtual env use pip install
 to see all installed libraries run:
@@ -48,7 +48,12 @@ if recreating virtualenv somewhere else, to install all dependencies you can the
 To deactivate your virtualenv run the following code:
      deactivate
 
-*******************
+*********************
 Source:
 https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+
+*********************
+
+When running code in IDE (I am using vscode), make sure to select the correct kernel that corresponds to the python version in the virtual environment
+
 *********************
