@@ -1,5 +1,4 @@
 env/
 .env
 sentiment140.training.1600000.processed.noemoticon.csv
-sentiment140Lem.csv
-sentiment140Lem2.csv
+sentiment140Processed.csv
