@@ -22,13 +22,6 @@ In **'tweetScrape.ipnb'** I collect matching tweets using the keyword list, over
 tweets are saved in **'twitterDataOutput.csv'**.
 nearly 500,000 matching tweets were collected.
 
-# Sentiment Analysis using VADER
-
-In **'vaderSentimentAnalysis.ipynb'** I carry out sentiment analysis using VADER.
-Tweets are assigned a value of positive, negative, or neutral.
-I display wordclouds displaying most commonly used words in the three groups.
-I display a graph showing changing levels of positive, negative, and neutral tweets over time.
-
 # Sentiment Analaysis Using SVM
 
 In **sentimentAnalysisSVM_PreprocessingData.ipynb** I prepare the sentiment140 dataset (a dataset of 1.6 million tweets labelled positive or negative). I do not alter the original data, but instead create a new dataset that includes the label, the original tweet, and several different processed versions (with numbers, punctuation, links etc removed, stopwords removed, and all words are lemmatized and one unlemmatized version). In order from least processed to most processed collumns: tweet > cleanTweet > unLemNoStops (stop words removed but no lemmatization) > lemmatizedTweet.
@@ -36,6 +29,13 @@ In **sentimentAnalysisSVM_PreprocessingData.ipynb** I prepare the sentiment140 d
 In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and display accuracy / f1 scores for these models. 
 
 ![SVM sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/SVM_sentiment_analysis_by_week_plot.png)
+
+# Sentiment Analysis using VADER
+
+In **'vaderSentimentAnalysis.ipynb'** I carry out sentiment analysis using VADER.
+Tweets are assigned a value of positive, negative, or neutral.
+I display wordclouds displaying most commonly used words in the three groups.
+I display a graph showing changing levels of positive, negative, and neutral tweets over time.
 
 ![Vader sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/VADER_sentiment_analysis_by_week_plot.png)
 
