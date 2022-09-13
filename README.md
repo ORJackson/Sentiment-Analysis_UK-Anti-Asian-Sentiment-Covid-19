@@ -38,7 +38,7 @@ I display a graph showing changing levels of positive, negative, and neutral twe
 
 In **sentimentAnalysisSVM_PreprocessingData.ipynb** I prepare the sentiment140 dataset (a dataset of 1.6 million tweets labelled positive or negative). I do not alter the original data, but instead create a new dataset that includes the label, the original tweet, and several different processed versions (with numbers, punctuation, links etc removed, stopwords removed, and all words are lemmatized and one unlemmatized version). In order from least processed to most processed collumns: tweet > cleanTweet > unLemNoStops (stop words removed but no lemmatization) > lemmatizedTweet.
 
-In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and disaply accuracy / f1 scores for these models. 
+In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and display accuracy / f1 scores for these models. 
 
 
 
