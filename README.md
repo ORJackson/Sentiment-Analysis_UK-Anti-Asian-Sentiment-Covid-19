@@ -1,5 +1,9 @@
 # CSCM20_Project
- Master's final project - sentiment analysis of Twitter data using VADER and SVM machine learning
+ Master's final project
+ 
+# Anti-Asian sentiment in the UK during the Covid-19 pandemic: analysing twitter data through sentiment analysis using SVM and VADER machine learning
+
+
 
 Coronavirus disease 2019 (COVID-19) is the illness caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), first discovered in Wuhan City, Hubei Province, China. The COVID-19 pandemic has dramatically changed the way individuals live their lives since the virus’s first discovery in China in 2019. For a large number of individuals, this novel coronavirus has not only presented health risks but also risks to their physical and mental wellbeing as they have become victims of unfair prejudice. This has been caused by fear of the virus which has led to a wave of anti-Asian sentiment and discrimination, as well as a sharp increase in hate crimes.  This change in sentiment has been well-documented, with reports of victims being spat on, and otherwise being physically and verbally assaulted in the street becoming commonplace. Statistics show that this is reflected online, with social media sites seeing a dramatic increase in negative posts referring to Asian people. One NHS doctor wrote that to stay silent is to allow “anti-Asian sentiment - and racist attacks to damage our society, the repercussions of which will likely persist beyond the pandemic”  (Coates, 2020). It is highly likely that this anti-Asian sentiment still exists and the repercussions are still being felt. There is an obligation to attempt to uncover this prejudice if it exists, and that is the ambition of this project - to examine the extent to which anti-Asian sentiment has changed in the UK over the course of the pandemic by analysing Twitter data.
 
@@ -34,7 +38,7 @@ I display a graph showing changing levels of positive, negative, and neutral twe
 
 In **sentimentAnalysisSVM_PreprocessingData.ipynb** I prepare the sentiment140 dataset (a dataset of 1.6 million tweets labelled positive or negative). I do not alter the original data, but instead create a new dataset that includes the label, the original tweet, and several different processed versions (with numbers, punctuation, links etc removed, stopwords removed, and all words are lemmatized and one unlemmatized version). In order from least processed to most processed collumns: tweet > cleanTweet > unLemNoStops (stop words removed but no lemmatization) > lemmatizedTweet.
 
-In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and disaply accuracy / f1 scores for these models. 
+In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and display accuracy / f1 scores for these models. 
 
 
 
