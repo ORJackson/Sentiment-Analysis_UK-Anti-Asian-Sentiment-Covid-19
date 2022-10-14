@@ -28,7 +28,7 @@ In **sentimentAnalysisSVM_PreprocessingData.ipynb** I prepare the sentiment140 d
 
 In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and display accuracy / f1 scores for these models. 
 
-![SVM sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/SVM%20LinearSVC/SVM%20(LinearSVC)%20sentiment%20analysis%20negative%20tweets%20as%20a%20percentage%20of%20total%20Tweets%20collected%20per%20month.png))
+![SVM sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/SVM%20LinearSVC/SVM%20(LinearSVC)%20sentiment%20analysis%20negative%20tweets%20as%20a%20percentage%20of%20total%20Tweets%20collected%20per%20month.png)
 
 # Sentiment Analysis using VADER
 
