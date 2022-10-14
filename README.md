@@ -28,7 +28,7 @@ In **sentimentAnalysisSVM_PreprocessingData.ipynb** I prepare the sentiment140 d
 
 In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and display accuracy / f1 scores for these models. 
 
-![SVM sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/SVM_sentiment_analysis_by_week_plot.png)
+![SVM sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/SVM%20LinearSVC/SVM%20(LinearSVC)%20sentiment%20analysis%20negative%20tweets%20as%20a%20percentage%20of%20total%20Tweets%20collected%20per%20month.png))
 
 # Sentiment Analysis using VADER
 
@@ -37,7 +37,7 @@ Tweets are assigned a value of positive, negative, or neutral.
 I display wordclouds displaying most commonly used words in the three groups.
 I display a graph showing changing levels of positive, negative, and neutral tweets over time.
 
-![Vader sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/VADER_sentiment_analysis_by_week_plot.png)
 
-![Vader sentiment analysis](https://github.com/ORJackson/CSCM20_Project/blob/main/images/VADER_sentiment_analysis_plot.png)
+
+![Vader sentiment analysis](https://github.com/ORJackson/CSCM20_Project/blob/main/images/VADER/VADER1(preprocessing1).png)
 
