@@ -1,8 +1,7 @@
 env/
 .env
 sentiment140.training.1600000.processed.noemoticon.csv
-sentiment140Processed.csv
-twitterDataOutput.csv
 sentiment140PreprocessingExperiment.csv
 sentiment140Preprocessor1.csv
 twitterDataOutputLabelledLinearSVC.csv
+twitterDataOutput.csv
