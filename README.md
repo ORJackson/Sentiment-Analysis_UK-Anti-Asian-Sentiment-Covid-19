@@ -21,30 +21,30 @@ Final keyword list found in **'finalAsianKeywords'**.
 ## Tweet Counts
 
 In **'tweetCountsAsianKeywords.ipnb'** a query is created using the finalAsianKeywords to search for tweets coming from the UK from January 2019 to June 2022.
-Using this query I display changing levels of matching tweets.
+Knowing how many tweets would be returned by the query was useful to understand how long it would take to return all matching tweets.
 
 ## Collecting data
 
 In **'tweetScrape.ipnb'** I collect matching tweets using the keyword list, over the period Jan 2019 - June 2020.
-tweets are saved in **'twitterDataOutput.csv'**.
-nearly 500,000 matching tweets were collected.
+Tweets are saved in **'twitterDataOutput.csv'**.
+Nearly 500,000 matching tweets were collected.
+
+## SVM preprocessing Experiemntation
+
+In **sentimentAnalysisSVMExperimentation.ipynb** I experiment with different preprocessing techniques using SVM (LinearSVC) classifiers trained on sentiment140 dataset. The models' performances are assessed based on their F1-score. Having found the best preprocessing techniques I carry out hyperparameter tuning.
 
 ## Sentiment Analaysis Using SVM
 
-In **sentimentAnalysisSVM_PreprocessingData.ipynb** I prepare the sentiment140 dataset (a dataset of 1.6 million tweets labelled positive or negative). I do not alter the original data, but instead create a new dataset that includes the label, the original tweet, and several different processed versions (with numbers, punctuation, links etc removed, stopwords removed, and all words are lemmatized and one unlemmatized version). In order from least processed to most processed collumns: tweet > cleanTweet > unLemNoStops (stop words removed but no lemmatization) > lemmatizedTweet.
+In **sentimentAnalysisSVM.LinearSVC.ipynb** I use the preprocessing techniques and hyperparameter tuning results uncovered in experimentation to create a classifier (trained on sentiment140) and carry out sentiment analysis on the twitter dataset.
 
-In **sentimentAnalysisSVM_Models.ipynb** I display some insights on the dataset and I train several versions of a linearSVC model and display accuracy / f1 scores for these models. 
-
-![SVM sentiment analysis by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/SVM%20LinearSVC/SVM%20(LinearSVC)%20sentiment%20analysis%20negative%20tweets%20as%20a%20percentage%20of%20total%20Tweets%20collected%20per%20month.png)
+![SVM sentiment analysis](https://github.com/ORJackson/CSCM20_Project/blob/main/images/Updated%20graphs/SVM%20positive%20and%20negative.png)
+![SVM proportion of negative tweets by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/Updated%20graphs/SVM%20neg%20week.png)
 
 ## Sentiment Analysis using VADER
 
 In **'vaderSentimentAnalysis.ipynb'** I carry out sentiment analysis using VADER.
-Tweets are assigned a value of positive, negative, or neutral.
-I display wordclouds displaying most commonly used words in the three groups.
-I display a graph showing changing levels of positive, negative, and neutral tweets over time.
 
 
-
-![Vader sentiment analysis](https://github.com/ORJackson/CSCM20_Project/blob/main/images/VADER/VADER1(preprocessing1).png)
+![VADER sentiment analysis](https://github.com/ORJackson/CSCM20_Project/blob/main/images/Updated%20graphs/VADER%20positive%20negative%20and%20neutral.png)
+![VADER proportion of negative tweets by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/Updated%20graphs/VADER%20neg%20week.png)
 
