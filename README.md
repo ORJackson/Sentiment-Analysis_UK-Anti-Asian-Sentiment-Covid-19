@@ -58,7 +58,7 @@ See **virtualEnvGuide.md** to create a virtual env. All dependencies are display
 
 Create a .env file with: 
 
-BEARER-TOKEN = 
-API-KEY =
-API-SECRET-KEY = 
+BEARER-TOKEN = ....
+API-KEY = ....
+API-SECRET-KEY = ....
 
