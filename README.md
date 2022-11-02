@@ -42,9 +42,25 @@ In **sentimentAnalysisSVM.LinearSVC.ipynb** I use the preprocessing techniques a
 
 ## Sentiment Analysis using VADER
 
-In **'vaderSentimentAnalysis.ipynb'** I carry out sentiment analysis using VADER.
+In **sentimentAnalysisVADER.ipynb** I carry out sentiment analysis using VADER.
 
 
 ![VADER sentiment analysis](https://github.com/ORJackson/CSCM20_Project/blob/main/images/Updated%20graphs/VADER%20positive%20negative%20and%20neutral.png)
 ![VADER proportion of negative tweets by week](https://github.com/ORJackson/CSCM20_Project/blob/main/images/Updated%20graphs/VADER%20neg%20week.png)
 
+
+## To run / recreate this project
+
+In order to run this project a access to Twitter API v2 is required with academic research access.
+
+
+See **virtualEnvGuide.md** to create a virtual env. All dependencies are displayed in requirements.txt. See how to display all dependencies.
+
+
+Create a .env file with: 
+
+BEARER-TOKEN = 
+
+API-KEY =
+
+API-SECRET-KEY = 
